@@ -26,7 +26,7 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
-  "data": "https://xrecotestbucket.s3.eu-north-1.amazonaws.com/test/airplane_0627.gltf",
+  "data": "https://xreco-nmr.s3.eu-west-1.amazonaws.com/test/airplane_0627.gltf",
   "start": 0,
   "end": 0,
   "last": true
