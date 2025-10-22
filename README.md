@@ -52,7 +52,9 @@ curl -X 'GET' \
 ]
 ```
 ## Authors
-Stamatis Samaras
+Maria Pegia
+Email: mpegia@iti.gr
+Stamatis Samaras 
 Email: sstamatis@iti.gr
 
 
