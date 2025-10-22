@@ -80,7 +80,7 @@ class resultsApi(Resource):
                     g_dict[str(new_id[0])] = feature
                     id.append(new_id[0])
             else:
-                session = boto3.Session(aws_access_key_id='AKIAQFATZO2MKRGOETZE',aws_secret_access_key='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')
+                session = boto3.Session(aws_access_key_id='aws_access_key_id',aws_secret_access_key='aws_secret_access_key')
                 s3 = session.resource('s3')
                 s3_client = boto3.client('s3')
                
