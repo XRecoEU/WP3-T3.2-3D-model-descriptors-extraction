@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  flash_app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/flask_app
+    environment:
+      - FLASK_APP=3DObjectRetrievalAPI_v1.py
+    # runtime: nvidia  # This line tells Docker to use the NVIDIA runtime
