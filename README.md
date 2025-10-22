@@ -54,10 +54,11 @@ curl -X 'GET' \
 ## Authors
 Maria Pegia
 Email: mpegia@iti.gr
+
 Stamatis Samaras 
 Email: sstamatis@iti.gr
 
 
 ## Licence 
 
-Licence description or link to the licence.  
+MIT Licence
